@@ -1,6 +1,6 @@
-﻿// OPIS PROJEKTU \\ 
+# Stacja środowiskowa na Arduino -  OPIS PROJEKTU
 
-	-- Wersja projektu: v 1.0 --
+	Wersja projektu: v 1.0
 
 
 
@@ -10,35 +10,36 @@
 // link do schematu elektrycznego //
 
 
-Zastosowane czujniki i niedokładności pomiarów:
+## Zastosowane czujniki i niedokładności pomiarów:
 
-Temperatura: SHT20
-Ciśnienie: BMP280
-Wilgotność: SHT20
+- Temperatura: SHT20 // niedokladnosci
+- Ciśnienie: BMP280 // niedokladnosci
+- Wilgotność: SHT20 // niedokladnosci
+
 Ekran: LCD 16x2 ze sterownikiem HD44780
 
 
-PROGRAMOWANIE za pomocą Arduino IDE:
+## Programowanie za pomocą Arduino IDE:
 
-Wykorzystany programator w Arduino IDE: AVRISP mkII
-Procesor: Atmega 328P
-Płytka: Arduino Nano
+- Wykorzystany programator w Arduino IDE: AVRISP mkII
+- Procesor: Atmega 328P
+- Płytka: Arduino Nano
 
-Wykorzystano zewnętrzne biblioteki: 
-NewLiquidCrystal 
-    https://bitbucket.org/fmalpartida/new-liquidcrystal 
+## Wykorzystano zewnętrzne biblioteki: 
+- NewLiquidCrystal: 
+    https://bitbucket.org/fmalpartida/new-liquidcrystal;
     wersja z dnia: 04.08.2020 
-DFRobot_SHT20 
-    https://github.com/DFRobot/DFRobot_SHT20 
+- DFRobot_SHT20: 
+    https://github.com/DFRobot/DFRobot_SHT20; 
     wersja z dnia: 30.09.2020 
-Adafruit_BMP280 
-    https://travis-ci.com/adafruit/Adafruit_BMP280_Library.svg?branch=master 
+- Adafruit_BMP280: 
+    https://travis-ci.com/adafruit/Adafruit_BMP280_Library.svg?branch=master;
     wersja z dnia: 30.09.2020
 
 
 
-// HISTORIA ZMIAN \\
+## HISTORIA ZMIAN: 
 
-*v 1.0:
-Pierwsza wersja programu.
-Planowane rozszerzenie o: uśrednianie pomiarów.
+#### v 1.0:
+- Pierwsza wersja programu.
+- Planowane rozszerzenie o: uśrednianie pomiarów.
