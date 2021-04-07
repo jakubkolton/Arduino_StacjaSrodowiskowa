@@ -1,6 +1,6 @@
 # Stacja środowiskowa na Arduino -  OPIS PROJEKTU
 
-	Wersja projektu: v 1.0
+	Wersja projektu: v 1.1
 
 
 
@@ -39,6 +39,14 @@ Ekran: LCD 16x2 ze sterownikiem HD44780
 
 
 ## HISTORIA ZMIAN: 
+
+#### v 1.1:
+- Dodano mechanizm uśredniania pomiarów.
+- Poprawione działanie pomiarów.
+- Planowane rozszerzenia: 
+	- Praca przerwaniowa
+	- Włącznik ekranu (energooszczędność)
+	- Szersze dane statystyczne (min, max, avg)
 
 #### v 1.0:
 - Pierwsza wersja programu.
