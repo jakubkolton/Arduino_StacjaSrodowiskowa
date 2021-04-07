@@ -1,4 +1,4 @@
-/* STACJA METEO v1.1 (30.09.2020)
+/* STACJA SRODOWISKOWA v1.1 (30.09.2020)
  *  
  *  Wykorzystane elementy:
  *  - Ekran LCD 2x16 + I2C 
