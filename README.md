@@ -4,19 +4,19 @@
 
 
 
-2 czujniki dołączone do magistrali I2C, mierzą w sumie 3 parametry. Są one aktualizowane co ok. 15 sekund i wyświetlane na ekranie LCD, również dołączonym przez I2C.
+2 czujniki dołączone do magistrali I2C, mierzą w sumie 3 parametry (temperatura, ciśnienie, wilgotność powietrza). Pomiary są wykonywane co ok. 15 sekund, a co ok. 1 minutę ostatnie 4 z nich uśredniane i wyświetlane na ekranie LCD, również dołączonym przez I2C.
 
-
-// link do schematu elektrycznego //
+## Schemat układu:
+![](./Arduino_StacjaSrodowiskowa_v1.1.jpg?raw=true "Optional Title")
 
 
 ## Zastosowane czujniki i niedokładności pomiarów:
 
-- Temperatura: SHT20 // niedokladnosci
-- Ciśnienie: BMP280 // niedokladnosci
-- Wilgotność: SHT20 // niedokladnosci
+- Temperatura: SHT20; +- 0,3 hPa
+- Ciśnienie: BMP280; +- 1 hPa
+- Wilgotność: SHT20; +- 3 %RH
 
-Ekran: LCD 16x2 ze sterownikiem HD44780
+Ekran: LCD 16x2 ze sterownikiem HD44780 + konwerter I2C LMC1602
 
 
 ## Programowanie za pomocą Arduino IDE:
